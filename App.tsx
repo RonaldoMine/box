@@ -8,9 +8,9 @@ export default function App() {
     return (
         <NativeBaseProvider>
             <NavigationContainer>
-                <ImageBackground resizeMode={"cover"} source={bg} style={{flex: 1}}>
+                {/*<ImageBackground resizeMode={"cover"} source={bg} style={{flex: 1}}>*/}
                     <MainStackScreen/>
-                </ImageBackground>
+                {/*</ImageBackground>*/}
             </NavigationContainer>
         </NativeBaseProvider>
     );
